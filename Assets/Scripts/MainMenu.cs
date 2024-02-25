@@ -12,15 +12,21 @@ public class MainMenu : MonoBehaviour
         
     }
 
-        public void PlayTestLvl()
+        public void PlayLvlTwo()
     {
-        //Scenes can be loaded by build index or by scene name eg. "LevelOne"
-        SceneManager.LoadScene("TestLevel");
+        SceneManager.LoadScene("LevelTwo");
+        
+    }
+
+    public void PlayLvlThree()
+    {
+        SceneManager.LoadScene("LevelThree");
         
     }
 
     public void QuitGame()
     {
+        //Quit game code cant be tested unitl game is built so we use debug.log
         Debug.Log("Quit game");
         Application.Quit();
     }

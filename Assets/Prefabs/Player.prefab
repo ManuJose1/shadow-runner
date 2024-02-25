@@ -70,8 +70,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1877852662913847529}
   - component: {fileID: 1877852662913847534}
-  - component: {fileID: 1877852662913847535}
-  - component: {fileID: 1877852662913847532}
+  - component: {fileID: 7965350893927078773}
+  - component: {fileID: 1440832401696852557}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -112,7 +112,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &1877852662913847535
+--- !u!114 &7965350893927078773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877852662913847533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b324aa8d1a5001b4882efe0ffc94cfe8, type: 3}
+  m_Script: {fileID: 11500000, guid: bb6319b2816ec0d42ba2d308c99b0a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 6
@@ -142,7 +142,7 @@ MonoBehaviour:
   orientation: {fileID: 1877852662238477224}
   state: 0
   wallrunning: 0
---- !u!114 &1877852662913847532
+--- !u!114 &1440832401696852557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877852662913847533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef09387e47fa3b64094ed032a7a13c29, type: 3}
+  m_Script: {fileID: 11500000, guid: 229868768c695854e972a9170b0eb6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   whatIsWall:
@@ -171,7 +171,7 @@ MonoBehaviour:
   useGravity: 1
   gravityCounterForce: 5.2
   orientation: {fileID: 1877852662238477224}
-  cam: {fileID: 1877852663005467114}
+  cam: {fileID: 5024645582567643034}
 --- !u!1 &1877852663005467115
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 1877852663005467029}
   - component: {fileID: 1877852663005467031}
   - component: {fileID: 1877852663005467028}
-  - component: {fileID: 1877852663005467114}
+  - component: {fileID: 5024645582567643034}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: MainCamera
@@ -256,7 +256,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877852663005467115}
   m_Enabled: 1
---- !u!114 &1877852663005467114
+--- !u!114 &5024645582567643034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877852663005467115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5aff0ca1d090c24abcecde0c10077ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 52ffa0f520174294bbdf1a68e0615c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerSensX: 400
@@ -377,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1877852663585809048}
-  - component: {fileID: 1877852663585809051}
+  - component: {fileID: 3241384252345259111}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -400,7 +400,7 @@ Transform:
   m_Father: {fileID: 1877852663948790126}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1877852663585809051
+--- !u!114 &3241384252345259111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877852663585809049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc53be92ae562cb4e998da8b65bcd49f, type: 3}
+  m_Script: {fileID: 11500000, guid: ff3ec7b6fc838494b8d2d41c609b31ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 1877852662693288576}
