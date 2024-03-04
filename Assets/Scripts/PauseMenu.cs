@@ -13,25 +13,26 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            if(GameIsPaused)
+            if (GameIsPaused)
             {
                 Resume();
-                Cursor.lockState = CursorLockMode.Confined;
-            }else
+            }
+            else
             {
                 Pause();
-                Cursor.lockState = CursorLockMode.Locked;
             }
         }
     }
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);        
+        pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Pause()
@@ -39,6 +40,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     public void QuitToMain()
