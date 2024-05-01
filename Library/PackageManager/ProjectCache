@@ -5,21 +5,92 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638446779361478744
-    m_Hash: 560168065
+      ticks: 638501867553154947
+    m_Hash: 1484880771
   m_LockFileStatus:
     m_FilePath: C:/Users/manua/Desktop/3rd Year (Again)/Professional Practice/shadow-runner/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638446779361519195
-    m_Hash: 3544572874
+      ticks: 638501865514298941
+    m_Hash: 1737444110
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.lootlocker.lootlockersdk@https://github.com/LootLocker/unity-sdk.git
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.5
+      source: 5
+      resolvedPath: C:\Users\manua\Desktop\3rd Year (Again)\Professional Practice\shadow-runner\Library\PackageCache\com.lootlocker.lootlockersdk@4fdacec817
+      assetPath: Packages/com.lootlocker.lootlockersdk
+      name: com.lootlocker.lootlockersdk
+      displayName: LootLocker
+      author:
+        name: LootLocker
+        email: hello@lootlocker.com
+        url: https://lootlocker.com
+      category: 
+      type: tool
+      description: "LootLocker is a game backend-as-a-service with plug and play
+        tools to upgrade your game and give your players the best experience possible.
+        Designed for teams of all shapes and sizes, on mobile, PC and console. From
+        solo developers, indie teams, AAA studios, and publishers. Built with cross-platform
+        in mind.\n\n\u25AA Manage your game\nSave time and upgrade your game with
+        leaderboards, progression, and more. Completely off-the-shelf features, built
+        to work with any game and platform.\n\n\u25AA Manage your content\nTake charge
+        of your game's content on all platforms, in one place. Sort, edit and manage
+        everything, from cosmetics to currencies, UGC to DLC. Without breaking a
+        sweat.\n\n\u25AA Manage your players\nStore your players' data together in
+        one place. Access their profile and friends list cross-platform. Manage reports,
+        messages, refunds and gifts to keep them hooked.\n"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        compatible:
+        - 2.0.0
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: scoped:package.openupm.com
+        name: package.openupm.com
+        url: https://package.openupm.com
+        scopes:
+        - com.lootlocker.lootlockersdk
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: https://docs.lootlocker.com/
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.17.2
       testable: 0
       isDirectDependency: 1
@@ -113,6 +184,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         - 2.1.0
         - 2.2.0
+        - 2.3.1
         compatible:
         - 1.17.2
         - 1.17.6
@@ -566,6 +638,7 @@ m_PackageAssets:
         - 5.2.2
         - 6.0.1-pre.1
         - 6.0.1-pre.2
+        - 6.0.1
         compatible:
         - 4.0.2
         - 4.0.3
@@ -717,6 +790,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.4.4
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -737,6 +811,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.4.4
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1181,6 +1256,7 @@ m_PackageAssets:
         - 1.0.0
         - 3.0.0-exp.1
         - 3.0.0-exp.3
+        - 3.0.0-exp.4
         compatible:
         - 1.0.0
         verified: 1.0.0
@@ -3143,6 +3219,8 @@ m_PackageAssets:
         - 1.12.0
         - 1.12.1
         - 1.12.2
+        - 1.12.4
+        - 1.12.5
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3171,6 +3249,8 @@ m_PackageAssets:
         - 1.12.0
         - 1.12.1
         - 1.12.2
+        - 1.12.4
+        - 1.12.5
         verified: 1.4.3
       dependencies:
       - name: com.unity.modules.unitywebrequest

@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class EndLevel : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+
+    public GameObject endScreen; 
+  void OnCollisionEnter(Collision col)
+  {
+    if(col.gameObject.name == "Player")
     {
-        if(other.gameObject.CompareTag("LevelEnding"))
-        {
-            Debug.Log("Level Complete");
-            EventManager.OnTimerStop();
-        }
+    Debug.Log("Level Ended");
+    endScreen.SetActive(true);
+    Time.timeScale = 0f;
+    Cursor.lockState = CursorLockMode.Confined;
+    Cursor.visible = true;
     }
-}
+  }   
+}    

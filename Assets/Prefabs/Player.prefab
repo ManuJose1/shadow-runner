@@ -116,7 +116,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f413e8c1e9cb4b41baf32f6c60cf295, type: 2}
+  - {fileID: 2100000, guid: 54d5ab9834a07164dafbb76d0bff1a1a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -582,14 +582,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24bef5e7680a9a247912b7276389e441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  movementSpeed: 7
   groundDrag: 5
-  wallrunSpeed: 8.5
+  wallrunSpeed: 6
   swingSpeed: 20
   shiftSpeed: 20
   shiftSpeedChangeFactor: 0
   maxYSpeed: 15
-  jumpHeight: 12
+  jumpHeight: 8
   jumpcooldown: 0.25
   airMultiplier: 0.4
   crouchSpeed: 2
@@ -809,7 +809,7 @@ MonoBehaviour:
   allowAllDirections: 1
   disableGravity: 0
   resetVel: 1
-  shiftCd: 0.2
+  shiftCd: 3
   shiftKey: 304
 --- !u!1 &7189705994290496354
 GameObject:

@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        //Quit game code cant be tested unitl game is built so we use debug.log
+        //Quit game code cant be tested until game is built so we use debug.log
         Debug.Log("Quit game");
         Application.Quit();
     }

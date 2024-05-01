@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using LootLocker.Requests;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,18 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
        EventManager.OnTimerStart(); 
+
+       LootLockerSDKManager.StartGuestSession((response) =>
+        {
+            if (!response.success)
+            {
+                Debug.Log("error starting LootLocker session");
+
+                return;
+            }
+
+            Debug.Log("successfully started LootLocker session");
+        });
     }
 
     // Update is called once per frame
